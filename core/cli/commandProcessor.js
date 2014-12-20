@@ -11,4 +11,19 @@ function CommandProcessor(resourceTree){
 
 }
 
+/**
+ * Should have methods
+ * 1. getCurrentContext()
+ * 2. getPrompt()
+ * 2. highlight(line)
+ * 3. perform(line)
+ *
+ * Should have events
+ * 1. contextChanged
+ * 2. promptChanged
+ * 3. textReceived
+ * 4. highlightReceived
+ *
+ * @type {CommandProcessor}
+ */
 module.exports = CommandProcessor;

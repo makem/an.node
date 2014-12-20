@@ -1,0 +1,32 @@
+{
+  "name": "an.node",
+  "version": "0.0.0",
+  "description": "AppNodes (AN) Node implementaton",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "buffer-crc32": "~0.2.5",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/makem/an.node.git"
+  },
+  "keywords": [
+    "appnodes"
+  ],
+  "author": "Maxim Vygovskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makem/an.node/issues"
+  },
+  "homepage": "http://appnodes.net"
+}
